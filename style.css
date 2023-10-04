@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap');
+
+body {
+	margin: 10px;
+	padding: 10px;
+	font-family: 'Questrial', sans-serif;
+	color: #ffffff;
+	background-color: #a60000;
+	font-size: 20px;
+}
+
+.imgContainer img {
+	width: 77%;
+}
+
+img + img {
+	margin-top: 100px;
+}
+
+.smallContainer {
+	display: flex;
+}
+
+.smallContainer div {
+	font-family: 'Martian Mono', monospace;
+	color: #fc0345;
+	background-color: #325054; 
+	margin: 20px;
+	padding: 20px;
+	border: 1vmin solid;
+	border-color: #ffea00;
+}
+
+.smallContainer >  div {
+	color: #4287f5;
+	background-color: #53186e;
+}
+
+.smallContainer div > p {
+   text-decoration: overline underline; 
+}
+
+.smallContainer div p:first-child {
+  text-decoration: underline dotted;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.imgContainer div p:first-child{
+	text-decoration: none;
+  font-size: 30px;
+
+}
+
+.smallContainer div p:last-child {
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #ff0072;
+}
+
+a:hover{
+	text-decoration: none;
+	-webkit-text-stroke-width: thick;
+	-webkit-text-stroke-color: #42f54b;
+}
+
+p + p {
+	color: #42f54b ;
+	margin: 10px;
+}
+
+h1, h2 {
+	color: #fca503;
+	font-size: 50px;
+	font-family: 'Questrial', sans-serif;
+} 
+
+
+
+
